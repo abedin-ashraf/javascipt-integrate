@@ -81,14 +81,16 @@
 
         // Add another article
         const article = document.createElement('article');
-        article.classList.add('blog');
+
         const h3 = document.createElement('h3');
         h3.innerText = 'My Awesome Blog 5';
+
         const p = document.createElement('p');
         p.innerText = 'Iusto aliquam id nisi! Quos assumenda totam architecto voluptatem similique et animi porro facilis quod nemo illum quidem eum, qui, voluptate adipisci eaque cumque ex repellat alias pariatu dignissimos ullam molestiae.Aspernatur, sit praesentium.Sint, obcaecati fugiat.Beatae, eaque cum.';
+
         article.appendChild(h3);
         article.appendChild(p);
-
+        article.classList.add('blog');
         //parent of article
         const blogSection = document.getElementById('blogs');
         blogSection.appendChild(article);

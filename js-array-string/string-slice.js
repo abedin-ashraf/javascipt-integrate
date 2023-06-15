@@ -27,3 +27,8 @@ const allJoined2 = words2.join(' ');
 console.log(allJoined2);
 const allJoined3 = words2.join(', ');
 console.log(allJoined3);
+
+
+const str1 = 'Ashraf';
+const str2 = 'Abedin';
+console.log(str2 + str1);
